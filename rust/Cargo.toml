@@ -43,11 +43,11 @@ maplit = { version = "1", optional = true }
 # High-level writer
 parquet-format = "~2.6.1"
 
-arrow  = { version = "4" }
-# arrow = { git = "https://github.com/nevi-me/arrow-rs", branch = "map-support" }
+# arrow  = { version = "4" }
+arrow = { git = "https://github.com/nevi-me/arrow-rs", branch = "map-support" }
 datafusion = { version = "4", optional = true }
-parquet = { version = "4" }
-# parquet = { git = "https://github.com/nevi-me/arrow-rs", branch = "map-support" }
+# parquet = { version = "4" }
+parquet = { git = "https://github.com/nevi-me/arrow-rs", branch = "map-support" }
 crossbeam = { version = "0", optional = true }
 cfg-if = "1"
 async-trait = "0.1"
